@@ -46,29 +46,30 @@ public class GunSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canShoot && shooting && !reloading && bulletsLeft > 0)
+        if (canShoot && shooting && !reloading && bulletsLeft > 0) 
         {
-            StartCoroutine(ShootRutine());
+            StartCoroutine(ShootRoutine());
         }
     }
 
-    IEnumerator ShootRutine()
-    {
-        canShoot = false;
-        if(!allowaButtonHold) shooting = false;
-        for (int i = 0; i < bulletsPerTap; i++)
-        {
-            if (bulletsLeft <= 0) break;
-            Shoot();
-            bulletsLeft--;
+
+    IEnumerator ShootRoutine() 
+    { 
+      canShoot = false; 
+      if (!allowaButtonHold) shooting = false; 
+      for (int i = 0; i < bulletsPerTap; i++) 
+        { 
+         if (bulletsLeft <= 0 ) break;
+         Shoot();
+         bulletsLeft--;
         }
 
-        yield return new WaitForSeconds(shootingCooldown);
+      yield return new WaitForSeconds(shootingCooldown);
         canShoot = true;
     }
 
 
-    void Shoot()  
+    void Shoot() 
     { 
     Vector3 direction = fpsCam.transform.forward;
         direction.x += Random.Range(-spread, spread);    
@@ -80,29 +81,30 @@ public class GunSystem : MonoBehaviour
         }
     }
 
-    void Reload()
-    {
-        if(bulletsLeft < ammoSize && !reloading) StartCoroutine(ReloadRoutine());
+    void Reload() 
+    { 
+     if (bulletsLeft < ammoSize && !reloading) StartCoroutine(ReloadRoutine());
     }
 
-    IEnumerator ReloadRoutine()
-    {
-        reloading = true;
-        yield return new WaitForSeconds(reloadTime);
-        bulletsLeft -= ammoSize;
-        reloading = false;
+    IEnumerator ReloadRoutine() 
+    { 
+      reloading = true;
+      yield return new WaitForSeconds(reloadTime);
+      bulletsLeft = ammoSize;
+      reloading = false;
     }
 
     #region Input Methods
     public void OnShoot(InputAction.CallbackContext context) 
-    { 
+    {
         if (allowaButtonHold)
         {
             shooting = context.ReadValueAsButton();
         }
-        else
-        {
-            if (context.performed) shooting = true;
+
+        else 
+        { 
+         if (context.performed) shooting = true;
         }
     }
     public void Reload (InputAction.CallbackContext context) 

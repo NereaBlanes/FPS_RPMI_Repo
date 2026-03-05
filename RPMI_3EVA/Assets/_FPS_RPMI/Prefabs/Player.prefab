@@ -8,84 +8,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 4259983733523767686}
-  m_Layer: 0
-  m_Name: CamHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4259983733523767686
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385677461437552602}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5544626238514826342}
-  m_Father: {fileID: 4715706263033146207}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1212884918696929755
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7275884922856077845}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7275884922856077845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212884918696929755}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4715706263033146207}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8241797570634441433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4715706263033146207}
-  - component: {fileID: 4093555533963408399}
-  - component: {fileID: 7359853392910283160}
-  - component: {fileID: 7640427488456640595}
-  - component: {fileID: 5401012704787570653}
-=======
   - component: {fileID: 6571703328847551563}
   - component: {fileID: 5989297839356534124}
   - component: {fileID: 6888566601831084896}
   - component: {fileID: 6982992356438279360}
   - component: {fileID: 2190772893059746156}
   - component: {fileID: -4175163014388685269}
-  - component: {fileID: 943457589005426513}
->>>>>>> Stashed changes
+  - component: {fileID: 8242259658423740151}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -172,11 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-<<<<<<< Updated upstream
-  m_Actions: {fileID: -944628639613478452, guid: 6cfcf9cf2a0612b4994bee50be67789d, type: 3}
-=======
   m_Actions: {fileID: -944628639613478452, guid: 1f6bf0b3acd044a408bc251fe08b8413, type: 3}
->>>>>>> Stashed changes
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -191,13 +116,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 5401012704787570653}
-        m_TargetAssemblyTypeName: FPSController, Assembly-CSharp
-=======
       - m_Target: {fileID: 2190772893059746156}
         m_TargetAssemblyTypeName: FPS_Controller, Assembly-CSharp
->>>>>>> Stashed changes
         m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
@@ -208,21 +128,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-    m_ActionId: 67c30e44-4fcc-428c-a375-512abce1c79d
-    m_ActionName: 'GAmeplay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5401012704787570653}
-        m_TargetAssemblyTypeName: FPSController, Assembly-CSharp
-=======
     m_ActionId: ab438a5c-3139-452e-82ec-141d829bb5b7
     m_ActionName: 'Gameplay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2190772893059746156}
         m_TargetAssemblyTypeName: FPS_Controller, Assembly-CSharp
->>>>>>> Stashed changes
         m_MethodName: OnLook
         m_Mode: 0
         m_Arguments:
@@ -233,23 +144,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-    m_ActionId: 4c333b41-dfcb-41da-a5d2-c73846a4a990
-    m_ActionName: 'GAmeplay/Look[/Mouse/delta]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5401012704787570653}
-        m_TargetAssemblyTypeName: FPSController, Assembly-CSharp
-        m_MethodName: OnJump
-=======
     m_ActionId: 17aca986-f8ce-4596-8473-72249e0435f4
     m_ActionName: 'Gameplay/Look[/Mouse/delta]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2900210010185691473}
+      - m_Target: {fileID: 2190772893059746156}
         m_TargetAssemblyTypeName: FPS_Controller, Assembly-CSharp
-        m_MethodName: 
->>>>>>> Stashed changes
+        m_MethodName: OnJump
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -259,27 +160,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-    m_ActionId: b4bc65a3-289f-42dd-ba1a-f7597b346539
-    m_ActionName: 'GAmeplay/Jump[/Keyboard/space]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 1de95943-dd66-4a96-83de-4b841f97844d
-    m_ActionName: 'GAmeplay/Shoot[/Mouse/leftButton]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5401012704787570653}
-        m_TargetAssemblyTypeName: FPSController, Assembly-CSharp
-        m_MethodName: OnSprint
-=======
     m_ActionId: 9eeb96ec-7724-4808-9705-0e06106c2dcd
     m_ActionName: 'Gameplay/Jump[/Keyboard/space]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 943457589005426513}
+      - m_Target: {fileID: 8242259658423740151}
         m_TargetAssemblyTypeName: GunSystem, Assembly-CSharp
         m_MethodName: OnShoot
->>>>>>> Stashed changes
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -289,21 +176,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-    m_ActionId: 639e3251-7f7e-4df1-a371-ee515dc109f9
-    m_ActionName: 'GAmeplay/Sprint[/Keyboard/shift]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5401012704787570653}
-        m_TargetAssemblyTypeName: FPSController, Assembly-CSharp
-=======
     m_ActionId: 5a4b73a8-891e-4354-a601-49002474b3d5
     m_ActionName: 'Gameplay/Shoot[/Mouse/leftButton]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2190772893059746156}
         m_TargetAssemblyTypeName: FPS_Controller, Assembly-CSharp
->>>>>>> Stashed changes
         m_MethodName: OnCrouch
         m_Mode: 0
         m_Arguments:
@@ -314,20 +192,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-    m_ActionId: 010f3235-6e32-418c-a253-3bd60fce5cb5
-    m_ActionName: 'GAmeplay/Crouch[/Keyboard/ctrl]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: cb1f751a-8567-473b-8f26-0403a57dd686
-    m_ActionName: 'GAmeplay/Reload[/Keyboard/r]'
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: GAmeplay
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &5401012704787570653
-=======
     m_ActionId: e021f698-c209-4745-ac09-c4bd6cb96a92
     m_ActionName: 'Gameplay/Crouch[/Keyboard/ctrl]'
   - m_PersistentCalls:
@@ -348,7 +212,7 @@ MonoBehaviour:
     m_ActionName: 'Gameplay/Sprint[/Keyboard/shift]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 943457589005426513}
+      - m_Target: {fileID: 8242259658423740151}
         m_TargetAssemblyTypeName: GunSystem, Assembly-CSharp
         m_MethodName: Reload
         m_Mode: 0
@@ -368,21 +232,11 @@ MonoBehaviour:
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2190772893059746156
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8241797570634441433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b98ba5311aec744ba4d68dd9bc028e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FPSController
-  camHolder: {fileID: 385677461437552602}
-=======
   m_GameObject: {fileID: 2900210010185691473}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -390,7 +244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FPS_Controller
   Cam_Holder: {fileID: 5644031368731200938}
->>>>>>> Stashed changes
   speed: 5
   sprintSpeed: 8
   crouchSpeed: 3
@@ -398,20 +251,13 @@ MonoBehaviour:
   sensitivity: 0.1
   jumpForce: 5
   isGrounded: 0
-<<<<<<< Updated upstream
-  groundCheck: {fileID: 7275884922856077845}
-=======
   groundCheck: {fileID: 2254729968309177432}
->>>>>>> Stashed changes
   groundCheckRadius: 0.3
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
   isSprinting: 0
   isCrouching: 0
-<<<<<<< Updated upstream
---- !u!1 &8480938638600237929
-=======
 --- !u!95 &-4175163014388685269
 Animator:
   serializedVersion: 7
@@ -434,7 +280,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &943457589005426513
+--- !u!114 &8242259658423740151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -446,11 +292,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af47ffae6aa30344b52be26614dc931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GunSystem
-  fpsCam: {fileID: 0}
+  fpsCam: {fileID: 8238486370318071036}
   shootPoint: {fileID: 0}
   impactLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   damage: 10
   range: 100
   spread: 0
@@ -464,7 +310,6 @@ MonoBehaviour:
   canShoot: 0
   reloading: 0
 --- !u!1 &5515340964479346308
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
